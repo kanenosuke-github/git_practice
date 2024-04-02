@@ -1,0 +1,128 @@
+[2022-03-17 11:24:37,940] [1    ] [INFO ] [] - ========== Box Edit v4.17.0.935 ==========
+[2022-03-17 11:24:38,034] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2022-03-17 11:24:42,380] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2022-03-17 11:24:42,384] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-03-17 11:24:43,056] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2022-03-17 11:24:44,694] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-03-17 11:24:45,693] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 11:24:45,886] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-03-17 11:24:45,887] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-03-17 11:24:45,888] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-03-17 11:24:45,890] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-03-17 11:24:45,904] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-03-17 11:24:45,925] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-17 11:24:45,938] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-03-17 11:24:46,160] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2022-03-17 11:24:46,181] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 11:24:46,183] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 11:24:46,184] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 11:24:46,185] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-03-17 11:24:46,186] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-03-17 11:24:51,104] [6    ] [INFO ] [] - No track defined, checking against default track
+[2022-03-17 11:24:51,107] [6    ] [INFO ] [] - RolloutID set to 67
+[2022-03-17 11:24:51,110] [6    ] [INFO ] [] - No upgrade available
+[2022-03-17 11:24:51,283] [8    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 11:24:51,283] [8    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 11:24:51,284] [8    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 11:34:51,239] [15   ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 11:34:51,241] [15   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 11:34:51,241] [15   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 12:01:42,830] [1    ] [INFO ] [] - ========== Box Edit v4.17.0.935 ==========
+[2022-03-17 12:01:42,878] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2022-03-17 12:01:45,098] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2022-03-17 12:01:45,098] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-03-17 12:01:45,242] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2022-03-17 12:01:45,658] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-03-17 12:01:45,898] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 12:01:45,986] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-03-17 12:01:45,986] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-03-17 12:01:45,986] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-03-17 12:01:45,986] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-03-17 12:01:45,994] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-03-17 12:01:46,002] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-17 12:01:46,010] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-03-17 12:01:46,419] [1    ] [INFO ] [] - Box Local Com Server started by Box Edit
+[2022-03-17 12:01:46,587] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2022-03-17 12:01:46,595] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 12:01:46,595] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 12:01:46,595] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 12:01:46,595] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-03-17 12:01:46,595] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-03-17 12:01:46,715] [6    ] [INFO ] [] - No track defined, checking against default track
+[2022-03-17 12:01:46,715] [6    ] [INFO ] [] - RolloutID set to 67
+[2022-03-17 12:01:46,715] [6    ] [INFO ] [] - No upgrade available
+[2022-03-17 12:01:51,621] [9    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 12:01:51,621] [9    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 12:01:51,621] [9    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 12:01:59,327] [8    ] [INFO ] [] - Pipe connected
+[2022-03-17 12:01:59,360] [8    ] [INFO ] [] - Closed Pipe
+[2022-03-17 12:02:06,587] [8    ] [INFO ] [] - Pipe connected
+[2022-03-17 12:02:06,595] [8    ] [INFO ] [] - Closed Pipe
+[2022-03-17 12:02:38,873] [8    ] [INFO ] [] - Pipe connected
+[2022-03-17 12:02:38,899] [8    ] [INFO ] [] - Closed Pipe
+[2022-03-17 12:02:46,959] [8    ] [INFO ] [] - Pipe connected
+[2022-03-17 12:02:47,010] [8    ] [INFO ] [] - Closed Pipe
+[2022-03-17 12:03:17,522] [8    ] [INFO ] [] - Pipe connected
+[2022-03-17 12:03:17,543] [8    ] [INFO ] [] - Closed Pipe
+[2022-03-17 12:03:37,019] [8    ] [INFO ] [] - Pipe connected
+[2022-03-17 12:03:37,023] [8    ] [INFO ] [] - Closed Pipe
+[2022-03-17 23:06:12,201] [1    ] [INFO ] [] - ========== Box Edit v4.17.0.935 ==========
+[2022-03-17 23:06:12,233] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2022-03-17 23:06:13,132] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2022-03-17 23:06:13,132] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-03-17 23:06:13,210] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2022-03-17 23:06:13,580] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-03-17 23:06:13,674] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 23:06:13,689] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-03-17 23:06:13,689] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-03-17 23:06:13,689] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-03-17 23:06:13,689] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-03-17 23:06:13,705] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-03-17 23:06:13,705] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-17 23:06:13,721] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-03-17 23:06:13,979] [1    ] [INFO ] [] - Box Local Com Server started by Box Edit
+[2022-03-17 23:06:14,058] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2022-03-17 23:06:14,068] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 23:06:14,068] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 23:06:14,068] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 23:06:14,068] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-03-17 23:06:14,068] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-03-17 23:06:19,102] [9    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 23:06:19,102] [9    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 23:06:19,102] [9    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 23:06:23,272] [6    ] [INFO ] [] - No track defined, checking against default track
+[2022-03-17 23:06:23,272] [6    ] [INFO ] [] - RolloutID set to 67
+[2022-03-17 23:06:23,280] [6    ] [INFO ] [] - No upgrade available
+[2022-03-17 23:16:19,149] [14   ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 23:16:19,153] [14   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 23:16:19,154] [14   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 23:26:19,120] [15   ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 23:26:19,122] [15   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 23:26:19,124] [15   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-17 23:36:19,128] [16   ] [INFO ] [] - Initializing the metrics collector
+[2022-03-17 23:36:19,128] [16   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-17 23:36:19,132] [16   ] [ERROR] [] - Failed to initialized metrics collector - error: 2

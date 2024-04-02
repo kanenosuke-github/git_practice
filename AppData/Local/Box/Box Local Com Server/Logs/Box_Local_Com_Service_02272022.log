@@ -1,0 +1,380 @@
+[2022-02-27 09:22:58,004] [1    ] [INFO ] [] - ========== Box Local Com Server v4.17.0.935 ==========
+[2022-02-27 09:22:58,051] [1    ] [INFO ] [] - Running as a per-user installation
+[2022-02-27 09:22:58,217] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 09:22:58,327] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-02-27 09:22:58,342] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-02-27 09:22:58,342] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-02-27 09:22:58,342] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-27 09:22:58,358] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-27 09:22:58,358] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 09:22:58,358] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 09:22:58,358] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 09:22:58,358] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-27 09:22:58,358] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-27 09:22:58,374] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-02-27 09:22:58,374] [1    ] [INFO ] [] - Starting server...
+[2022-02-27 09:22:58,592] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2022-02-27 09:22:58,592] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-02-27 09:22:58,608] [5    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 09:22:58,608] [5    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 09:22:58,608] [5    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 09:22:58,608] [5    ] [INFO ] [] - Recording metric - name: ComServerStart
+[2022-02-27 09:23:03,396] [4    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 09:23:03,396] [4    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 09:23:03,396] [4    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 09:31:07,101] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:07,101] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:07,118] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:07,118] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:07,120] [8    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:07,120] [6    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:08,632] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:08,636] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:08,636] [6    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:09,374] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:09,378] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:09,378] [6    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:12,326] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:12,330] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:12,331] [6    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:13,770] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:13,785] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:13,786] [6    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:14,693] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:14,697] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:14,698] [10   ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:14,700] [10   ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:14,700] [10   ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:14,755] [8    ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 09:31:14,787] [8    ] [INFO ] [] - Handling application_request
+[2022-02-27 09:31:14,794] [5    ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 09:31:14,799] [5    ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 09:31:14,831] [4    ] [INFO ] [] - Received 131 bytes from application boxedit
+[2022-02-27 09:31:14,831] [4    ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 09:31:14,836] [8    ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":[{"xlsm":"Excel"},{"xlsx":"Excel"},{"pdf":"Microsoft Edge"}]} from application boxedit
+[2022-02-27 09:31:14,837] [8    ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0487829
+[2022-02-27 09:31:23,972] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:23,974] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:23,975] [8    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:24,023] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:24,025] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:24,026] [6    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:25,958] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:25,960] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:25,961] [6    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:27,311] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:27,315] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:27,315] [8    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:27,520] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:27,537] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:27,562] [8    ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 09:31:27,562] [8    ] [INFO ] [] - Handling application_request
+[2022-02-27 09:31:27,562] [11   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 09:31:27,562] [11   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 09:31:27,593] [14   ] [INFO ] [] - Received 95 bytes from application boxedit
+[2022-02-27 09:31:27,593] [14   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 09:31:27,594] [8    ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":{"pdf":"Microsoft Edge"}} from application boxedit
+[2022-02-27 09:31:27,595] [8    ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0302877
+[2022-02-27 09:31:29,134] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:29,143] [8    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:29,144] [8    ] [INFO ] [] - Handling status request
+[2022-02-27 09:31:29,518] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:29,522] [6    ] [INFO ] [] - Accepted Origin
+[2022-02-27 09:31:29,537] [6    ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 09:31:29,538] [6    ] [INFO ] [] - Handling application_request
+[2022-02-27 09:31:29,540] [15   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 09:31:29,542] [15   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 09:31:29,566] [16   ] [INFO ] [] - Received 95 bytes from application boxedit
+[2022-02-27 09:31:29,566] [16   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 09:31:29,568] [6    ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":{"pdf":"Microsoft Edge"}} from application boxedit
+[2022-02-27 09:31:29,569] [6    ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0306444
+[2022-02-27 09:33:03,394] [17   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 09:33:03,394] [17   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 09:33:03,394] [17   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 09:43:03,386] [12   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 09:43:03,388] [12   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 09:43:03,389] [12   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 09:53:03,413] [19   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 09:53:03,414] [19   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 09:53:03,415] [19   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 10:19:28,282] [22   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 10:19:28,285] [22   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 10:19:28,286] [22   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 10:28:08,059] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:28:08,061] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:28:08,062] [21   ] [INFO ] [] - Handling status request
+[2022-02-27 10:28:09,163] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:28:09,166] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:28:09,166] [21   ] [INFO ] [] - Handling status request
+[2022-02-27 10:29:07,769] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:07,772] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:07,773] [21   ] [INFO ] [] - Handling status request
+[2022-02-27 10:29:08,813] [29   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:08,816] [29   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:08,816] [29   ] [INFO ] [] - Handling status request
+[2022-02-27 10:29:10,676] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:10,678] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:10,678] [21   ] [INFO ] [] - Handling status request
+[2022-02-27 10:29:11,908] [29   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:11,911] [29   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:11,912] [29   ] [INFO ] [] - Handling status request
+[2022-02-27 10:29:12,158] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:12,160] [21   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:29:12,171] [21   ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 10:29:12,171] [21   ] [INFO ] [] - Handling application_request
+[2022-02-27 10:29:12,172] [28   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 10:29:12,174] [28   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 10:29:12,186] [25   ] [INFO ] [] - Received 109 bytes from application boxedit
+[2022-02-27 10:29:12,186] [25   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 10:29:12,189] [21   ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":[{"xlsx":"Excel"},{"txt":"メモ帳"}]} from application boxedit
+[2022-02-27 10:29:12,190] [21   ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0188633
+[2022-02-27 10:31:22,666] [23   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:22,669] [23   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:22,669] [23   ] [INFO ] [] - Handling status request
+[2022-02-27 10:31:24,001] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:24,013] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:24,014] [16   ] [INFO ] [] - Handling status request
+[2022-02-27 10:31:27,304] [22   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 10:31:27,312] [22   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 10:31:27,315] [22   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 10:31:28,368] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:28,370] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:28,371] [16   ] [INFO ] [] - Handling status request
+[2022-02-27 10:31:29,389] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:29,393] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:29,394] [16   ] [INFO ] [] - Handling status request
+[2022-02-27 10:31:29,560] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:29,598] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:29,665] [16   ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 10:31:29,668] [16   ] [INFO ] [] - Handling application_request
+[2022-02-27 10:31:29,670] [15   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 10:31:29,674] [15   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 10:31:29,728] [13   ] [INFO ] [] - Received 151 bytes from application boxedit
+[2022-02-27 10:31:29,730] [13   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 10:31:29,731] [16   ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":[{"pdf":"Microsoft Edge"},{"xlsm":"Excel"},{"xlsx":"Excel"},{"txt":"メモ帳"}]} from application boxedit
+[2022-02-27 10:31:29,732] [16   ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0639947
+[2022-02-27 10:31:34,778] [23   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:34,781] [23   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:34,781] [23   ] [INFO ] [] - Handling status request
+[2022-02-27 10:31:35,630] [23   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:35,634] [23   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:35,634] [23   ] [INFO ] [] - Handling status request
+[2022-02-27 10:31:44,810] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:44,815] [16   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:44,816] [16   ] [INFO ] [] - Handling status request
+[2022-02-27 10:31:45,753] [23   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:45,760] [23   ] [INFO ] [] - Accepted Origin
+[2022-02-27 10:31:45,762] [23   ] [INFO ] [] - Handling status request
+[2022-02-27 14:21:01,780] [1    ] [INFO ] [] - ========== Box Local Com Server v4.17.0.935 ==========
+[2022-02-27 14:21:01,811] [1    ] [INFO ] [] - Running as a per-user installation
+[2022-02-27 14:21:01,889] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 14:21:01,889] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-02-27 14:21:01,889] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-02-27 14:21:01,889] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-02-27 14:21:01,889] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-27 14:21:01,905] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-27 14:21:01,921] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 14:21:01,921] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 14:21:01,921] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 14:21:01,921] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-27 14:21:01,921] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-27 14:21:01,936] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-02-27 14:21:01,936] [1    ] [INFO ] [] - Starting server...
+[2022-02-27 14:21:01,952] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2022-02-27 14:21:01,952] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-02-27 14:21:01,967] [6    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 14:21:01,967] [6    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 14:21:01,967] [6    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 14:21:01,967] [6    ] [INFO ] [] - Recording metric - name: ComServerStart
+[2022-02-27 14:21:06,935] [4    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 14:21:06,935] [4    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 14:21:06,935] [4    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 14:31:06,976] [10   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 14:31:06,980] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 14:31:06,981] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 14:41:06,964] [11   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 14:41:06,967] [11   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 14:41:06,968] [11   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 14:51:06,975] [12   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 14:51:06,978] [12   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 14:51:06,978] [12   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 14:56:52,893] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:56:52,893] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:56:52,906] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:56:52,906] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:56:52,906] [14   ] [INFO ] [] - Handling status request
+[2022-02-27 14:56:52,906] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:56:54,886] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:56:54,889] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:56:54,890] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:56:57,337] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:56:57,339] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:56:57,339] [14   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:02,250] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:02,253] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:02,255] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:03,462] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:03,466] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:03,469] [14   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:04,169] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:04,173] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:04,259] [14   ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 14:57:04,366] [14   ] [INFO ] [] - Handling application_request
+[2022-02-27 14:57:04,369] [12   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 14:57:04,384] [12   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 14:57:04,422] [11   ] [INFO ] [] - Received 151 bytes from application boxedit
+[2022-02-27 14:57:04,422] [11   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 14:57:04,427] [14   ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":[{"pdf":"Microsoft Edge"},{"xlsm":"Excel"},{"xlsx":"Excel"},{"txt":"メモ帳"}]} from application boxedit
+[2022-02-27 14:57:04,427] [14   ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0616452
+[2022-02-27 14:57:18,188] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:18,192] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:18,192] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:19,392] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:19,394] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:19,395] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:22,290] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:22,295] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:22,297] [14   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:23,156] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:23,160] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:23,162] [14   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:27,400] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:27,402] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:27,402] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:28,482] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:28,488] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:28,491] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:28,784] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:28,793] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:28,811] [14   ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 14:57:28,811] [14   ] [INFO ] [] - Handling application_request
+[2022-02-27 14:57:28,811] [6    ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 14:57:28,819] [6    ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 14:57:28,864] [5    ] [INFO ] [] - Received 95 bytes from application boxedit
+[2022-02-27 14:57:28,864] [5    ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 14:57:28,876] [14   ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":{"pdf":"Microsoft Edge"}} from application boxedit
+[2022-02-27 14:57:28,878] [14   ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0631423
+[2022-02-27 14:57:43,133] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:43,138] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:43,138] [14   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:44,513] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:44,519] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:44,522] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:44,930] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:44,933] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:44,941] [14   ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 14:57:44,941] [14   ] [INFO ] [] - Handling application_request
+[2022-02-27 14:57:44,943] [17   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 14:57:44,946] [17   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 14:57:44,992] [18   ] [INFO ] [] - Received 151 bytes from application boxedit
+[2022-02-27 14:57:44,995] [18   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 14:57:44,998] [14   ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":[{"xlsm":"Excel"},{"txt":"メモ帳"},{"pdf":"Microsoft Edge"},{"xlsx":"Excel"}]} from application boxedit
+[2022-02-27 14:57:44,999] [14   ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0575588
+[2022-02-27 14:57:49,674] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:49,708] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:49,722] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:50,967] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:50,972] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:50,973] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:51,197] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:51,209] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:51,238] [15   ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 14:57:51,240] [15   ] [INFO ] [] - Handling application_request
+[2022-02-27 14:57:51,240] [20   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 14:57:51,252] [20   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 14:57:51,304] [21   ] [INFO ] [] - Received 95 bytes from application boxedit
+[2022-02-27 14:57:51,304] [21   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 14:57:51,313] [15   ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":{"pdf":"Microsoft Edge"}} from application boxedit
+[2022-02-27 14:57:51,337] [15   ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0961601
+[2022-02-27 14:57:53,338] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:53,344] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:53,346] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:54,204] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:54,211] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:54,212] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:57:55,115] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:55,118] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:55,125] [14   ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 14:57:55,125] [14   ] [INFO ] [] - Handling application_request
+[2022-02-27 14:57:55,128] [20   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 14:57:55,130] [20   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 14:57:55,156] [18   ] [INFO ] [] - Received 134 bytes from application boxedit
+[2022-02-27 14:57:55,156] [18   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 14:57:55,158] [14   ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":[{"txt":"メモ帳"},{"pdf":"Microsoft Edge"},{"xlsx":"Excel"}]} from application boxedit
+[2022-02-27 14:57:55,159] [14   ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0315710
+[2022-02-27 14:57:59,725] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:59,730] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:57:59,732] [14   ] [INFO ] [] - Handling status request
+[2022-02-27 14:58:01,235] [14   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:58:01,240] [4    ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:58:01,241] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:58:01,242] [15   ] [INFO ] [] - Handling status request
+[2022-02-27 14:58:01,243] [4    ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:58:01,244] [4    ] [INFO ] [] - Handling status request
+[2022-02-27 14:58:02,772] [4    ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:58:02,780] [4    ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:58:02,782] [4    ] [INFO ] [] - Handling status request
+[2022-02-27 14:58:02,871] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:58:02,873] [15   ] [INFO ] [] - Accepted Origin
+[2022-02-27 14:58:02,888] [15   ] [INFO ] [] - Application "Box Edit" running for user "DESKTOP-T63COKT\金田駿之介"
+[2022-02-27 14:58:02,888] [15   ] [INFO ] [] - Handling application_request
+[2022-02-27 14:58:02,890] [12   ] [INFO ] [] - Attempt #1 to connect to named pipe box_edit_pipe
+[2022-02-27 14:58:02,891] [12   ] [INFO ] [] - The named pipe box_edit_pipe is connected
+[2022-02-27 14:58:02,904] [13   ] [INFO ] [] - Received 95 bytes from application boxedit
+[2022-02-27 14:58:02,904] [13   ] [INFO ] [] - Disconnected from box_edit_pipe
+[2022-02-27 14:58:02,909] [15   ] [INFO ] [] - Received {"response_type":"get_default_application","default_application_name":{"pdf":"Microsoft Edge"}} from application boxedit
+[2022-02-27 14:58:02,909] [15   ] [INFO ] [] - Elapsed time to handle application_request: 00:00:00.0205336
+[2022-02-27 15:01:06,968] [10   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 15:01:06,973] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 15:01:06,974] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 15:11:06,996] [17   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 15:11:06,999] [17   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 15:11:07,002] [17   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 21:19:12,873] [1    ] [INFO ] [] - ========== Box Local Com Server v4.17.0.935 ==========
+[2022-02-27 21:19:12,936] [1    ] [INFO ] [] - Running as a per-user installation
+[2022-02-27 21:19:13,014] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 21:19:13,029] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-02-27 21:19:13,029] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-02-27 21:19:13,045] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-02-27 21:19:13,045] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-27 21:19:13,061] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-27 21:19:13,061] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 21:19:13,061] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 21:19:13,061] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 21:19:13,061] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-27 21:19:13,061] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-27 21:19:13,092] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-02-27 21:19:13,092] [1    ] [INFO ] [] - Starting server...
+[2022-02-27 21:19:13,107] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2022-02-27 21:19:13,107] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-02-27 21:19:13,123] [6    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 21:19:13,123] [6    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 21:19:13,123] [6    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-27 21:19:13,123] [6    ] [INFO ] [] - Recording metric - name: ComServerStart
+[2022-02-27 21:19:18,091] [4    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-27 21:19:18,091] [4    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-27 21:19:18,091] [4    ] [ERROR] [] - Failed to initialized metrics collector - error: 2

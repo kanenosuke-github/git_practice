@@ -1,0 +1,155 @@
+[2022-02-24 09:46:54,323] [1    ] [INFO ] [] - ========== Box Edit v4.16.1.911 ==========
+[2022-02-24 09:46:54,361] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2022-02-24 09:46:55,867] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2022-02-24 09:46:55,869] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-02-24 09:46:55,994] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2022-02-24 09:46:56,731] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-02-24 09:46:56,900] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 09:46:56,973] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-02-24 09:46:56,974] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-02-24 09:46:56,975] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-02-24 09:46:56,991] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-24 09:46:57,006] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-24 09:46:57,020] [6    ] [INFO ] [] - Checking for upgrades
+[2022-02-24 09:46:57,045] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate.json
+[2022-02-24 09:46:57,144] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2022-02-24 09:46:57,189] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 09:46:57,190] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 09:46:57,190] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 09:46:57,191] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-24 09:46:57,192] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-24 09:46:58,377] [6    ] [INFO ] [] - No track defined, checking against default track
+[2022-02-24 09:46:58,379] [6    ] [INFO ] [] - RolloutID set to 29
+[2022-02-24 09:46:58,379] [6    ] [INFO ] [] - Newer version found 4.17.0.935
+[2022-02-24 09:47:01,410] [9    ] [INFO ] [] - Upgrade downloaded correctly and passed SHA1 verification
+[2022-02-24 09:47:01,861] [9    ] [INFO ] [] - Upgrade extracted
+[2022-02-24 09:47:02,252] [8    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 09:47:02,252] [8    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 09:47:02,253] [8    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 09:47:03,167] [9    ] [INFO ] [] - Certificate verification was successful.
+[2022-02-24 09:47:03,169] [9    ] [INFO ] [] - Installing upgrade
+[2022-02-24 09:47:04,018] [9    ] [INFO ] [] - Recorded AU metric.
+[2022-02-24 09:47:04,019] [12   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 09:47:04,020] [12   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 09:47:04,020] [12   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 09:47:04,021] [12   ] [INFO ] [] - Recording metric - name: plugins_metrics_autoupgrade
+[2022-02-24 09:47:29,284] [1    ] [INFO ] [] - ========== Box Edit v4.17.0.935 ==========
+[2022-02-24 09:47:29,310] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe"
+[2022-02-24 09:47:30,734] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2022-02-24 09:47:30,737] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-02-24 09:47:30,844] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2022-02-24 09:47:31,125] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-02-24 09:47:31,318] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 09:47:31,430] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-02-24 09:47:31,431] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-02-24 09:47:31,433] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-02-24 09:47:31,435] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-24 09:47:31,442] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-24 09:47:31,447] [6    ] [INFO ] [] - Checking for upgrades
+[2022-02-24 09:47:31,460] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-02-24 09:47:31,571] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2022-02-24 09:47:31,582] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 09:47:31,584] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 09:47:31,585] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 09:47:31,587] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-02-24 09:47:31,588] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-02-24 09:47:31,940] [6    ] [INFO ] [] - No track defined, checking against default track
+[2022-02-24 09:47:31,942] [6    ] [INFO ] [] - RolloutID set to 67
+[2022-02-24 09:47:31,946] [6    ] [ERROR] [] - UpgradeService.CheckForUpgrades on line number [0]  System.FormatException: 入力文字列の形式が正しくありません。
+   場所 System.Version.VersionResult.SetFailure(ParseFailureKind failure, String argument)
+   場所 System.Version.TryParseComponent(String component, String componentName, VersionResult& result, Int32& parsedComponent)
+   場所 System.Version.TryParseVersion(String version, VersionResult& result)
+   場所 System.Version.Parse(String input)
+   場所 System.Version..ctor(String version)
+   場所 Box.Edit.UpgradeService.UpgradeService.CheckForUpgrades()
+[2022-02-24 09:47:36,606] [10   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 09:47:36,606] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 09:47:36,607] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 09:57:36,627] [16   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 09:57:36,627] [16   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 09:57:36,627] [16   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 10:07:36,625] [17   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 10:07:36,625] [17   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 10:07:36,625] [17   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 10:17:36,653] [13   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 10:17:36,653] [13   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 10:17:36,653] [13   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 10:27:36,665] [18   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 10:27:36,665] [18   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 10:27:36,681] [18   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 10:37:36,680] [14   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 10:37:36,682] [14   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 10:37:36,683] [14   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 10:47:36,707] [19   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 10:47:36,707] [19   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 10:47:36,707] [19   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 10:57:36,712] [21   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 10:57:36,712] [21   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 10:57:36,712] [21   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 11:07:36,723] [20   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 11:07:36,730] [20   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 11:07:36,734] [20   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 11:17:36,742] [23   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 11:17:36,745] [23   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 11:17:36,746] [23   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 11:27:36,757] [22   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 11:27:36,757] [22   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 11:27:36,757] [22   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 11:37:36,761] [25   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 11:37:36,761] [25   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 11:37:36,761] [25   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 11:47:36,781] [26   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 11:47:36,781] [26   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 11:47:36,781] [26   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 11:57:36,798] [27   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 11:57:36,798] [27   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 11:57:36,798] [27   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 12:07:36,800] [28   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 12:07:36,800] [28   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 12:07:36,800] [28   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 12:17:36,802] [24   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 12:17:36,802] [24   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 12:17:36,802] [24   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 12:27:36,809] [29   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 12:27:36,809] [29   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 12:27:36,809] [29   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 12:37:36,828] [30   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 12:37:36,828] [30   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 12:37:36,828] [30   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 12:47:36,831] [31   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 12:47:36,831] [31   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 12:47:36,831] [31   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 15:12:06,950] [34   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 15:12:06,950] [34   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 15:12:06,950] [34   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 15:22:06,942] [35   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 15:22:06,944] [35   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 15:22:06,947] [35   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 15:32:06,948] [32   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 15:32:06,948] [32   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 15:32:06,948] [32   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 15:42:06,968] [36   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 15:42:06,971] [36   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 15:42:06,972] [36   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 15:52:06,971] [33   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 15:52:06,971] [33   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 15:52:06,971] [33   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-02-24 16:02:07,001] [37   ] [INFO ] [] - Initializing the metrics collector
+[2022-02-24 16:02:07,001] [37   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-02-24 16:02:07,001] [37   ] [ERROR] [] - Failed to initialized metrics collector - error: 2

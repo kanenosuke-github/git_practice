@@ -1,0 +1,123 @@
+[2023-11-17 10:12:17,319] [1    ] [INFO ] [] - ========== Box Edit v4.24.0.1029 ==========
+[2023-11-17 10:12:17,350] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2023-11-17 10:12:18,639] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2023-11-17 10:12:18,639] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-11-17 10:12:18,826] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2023-11-17 10:12:19,451] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-11-17 10:12:19,514] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(488): Starting DeviceId generator.
+[2023-11-17 10:12:19,514] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(515): Global mutex obtained. Start checking.
+[2023-11-17 10:12:19,763] [1    ] [INFO ] [] - DeviceId::RestoreGlobalDeviceData(65): Failed reading global DeviceData from registry: Registry key "SOFTWARE\Box\DeviceId" not found.
+[2023-11-17 10:12:19,888] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(389): Restored local DeviceId
+[2023-11-17 10:12:19,888] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(393): Restored local DeviceData
+[2023-11-17 10:12:19,888] [1    ] [INFO ] [] - DeviceId::PerformChecking(452): Checking DeviceData.
+[2023-11-17 10:12:19,920] [1    ] [INFO ] [] - DeviceId::PerformChecking(453): DeviceData read from registry: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-11-17 10:12:19,920] [1    ] [INFO ] [] - DeviceId::PerformChecking(454): Generated DeviceData: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-11-17 10:12:19,972] [1    ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:12:20,018] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2023-11-17 10:12:20,018] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2023-11-17 10:12:20,018] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2023-11-17 10:12:20,038] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-11-17 10:12:20,038] [9    ] [INFO ] [] - result: True
+[2023-11-17 10:12:20,038] [9    ] [INFO ] [] - Checking for upgrades
+[2023-11-17 10:12:20,049] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-11-17 10:12:20,129] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2023-11-17 10:12:20,139] [1    ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:12:20,139] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:12:20,139] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-11-17 10:12:20,158] [1    ] [INFO ] [] - .NET Version: unknown (533325) - 4.0.30319.42000
+[2023-11-17 10:12:20,170] [12   ] [INFO ] [] - Sending async metric DotNetVersion to Gen204 json endpoint.
+[2023-11-17 10:12:20,360] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-11-17 10:12:20,531] [9    ] [INFO ] [] - ### current version track name: 4.24.0
+[2023-11-17 10:12:20,533] [9    ] [WARN ] [] - Track 4.24.0 not found
+[2023-11-17 10:12:20,533] [9    ] [INFO ] [] - Track default for upgrade found
+[2023-11-17 10:12:20,533] [9    ] [INFO ] [] - RolloutID set to 73
+[2023-11-17 10:12:20,533] [9    ] [INFO ] [] - No upgrade available
+[2023-11-17 10:12:20,739] [12   ] [INFO ] [] - Metric ingestion endpoint response: NoContent
+[2023-11-17 10:12:25,174] [7    ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:12:25,174] [7    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:12:25,174] [7    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-11-17 10:22:25,197] [18   ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:22:25,200] [18   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:22:25,202] [18   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-11-17 10:32:25,174] [13   ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:32:25,176] [13   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:32:25,177] [13   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-11-17 10:40:43,159] [1    ] [INFO ] [] - ========== Box Edit v4.24.0.1029 ==========
+[2023-11-17 10:40:43,190] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2023-11-17 10:40:44,661] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2023-11-17 10:40:44,661] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-11-17 10:40:44,751] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2023-11-17 10:40:45,225] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-11-17 10:40:45,265] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(488): Starting DeviceId generator.
+[2023-11-17 10:40:45,265] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(515): Global mutex obtained. Start checking.
+[2023-11-17 10:40:45,495] [1    ] [INFO ] [] - DeviceId::RestoreGlobalDeviceData(65): Failed reading global DeviceData from registry: Registry key "SOFTWARE\Box\DeviceId" not found.
+[2023-11-17 10:40:45,565] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(389): Restored local DeviceId
+[2023-11-17 10:40:45,565] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(393): Restored local DeviceData
+[2023-11-17 10:40:45,565] [1    ] [INFO ] [] - DeviceId::PerformChecking(452): Checking DeviceData.
+[2023-11-17 10:40:45,565] [1    ] [INFO ] [] - DeviceId::PerformChecking(453): DeviceData read from registry: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-11-17 10:40:45,565] [1    ] [INFO ] [] - DeviceId::PerformChecking(454): Generated DeviceData: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-11-17 10:40:45,597] [1    ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:40:45,612] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2023-11-17 10:40:45,612] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2023-11-17 10:40:45,612] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2023-11-17 10:40:45,628] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-11-17 10:40:45,628] [9    ] [INFO ] [] - result: True
+[2023-11-17 10:40:45,628] [9    ] [INFO ] [] - Checking for upgrades
+[2023-11-17 10:40:45,628] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-11-17 10:40:45,698] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2023-11-17 10:40:45,698] [1    ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:40:45,698] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:40:45,698] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-11-17 10:40:45,708] [1    ] [INFO ] [] - .NET Version: unknown (533325) - 4.0.30319.42000
+[2023-11-17 10:40:45,718] [13   ] [INFO ] [] - Sending async metric DotNetVersion to Gen204 json endpoint.
+[2023-11-17 10:40:45,859] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-11-17 10:40:46,000] [9    ] [INFO ] [] - ### current version track name: 4.24.0
+[2023-11-17 10:40:46,000] [9    ] [WARN ] [] - Track 4.24.0 not found
+[2023-11-17 10:40:46,000] [9    ] [INFO ] [] - Track default for upgrade found
+[2023-11-17 10:40:46,000] [9    ] [INFO ] [] - RolloutID set to 73
+[2023-11-17 10:40:46,000] [9    ] [INFO ] [] - No upgrade available
+[2023-11-17 10:40:46,201] [13   ] [INFO ] [] - Metric ingestion endpoint response: NoContent
+[2023-11-17 10:40:50,719] [10   ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:40:50,719] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:40:50,719] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-11-17 10:42:59,218] [1    ] [INFO ] [] - ========== Box Edit v4.24.0.1029 ==========
+[2023-11-17 10:42:59,253] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2023-11-17 10:43:00,356] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2023-11-17 10:43:00,358] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-11-17 10:43:00,481] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2023-11-17 10:43:01,022] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-11-17 10:43:01,092] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(488): Starting DeviceId generator.
+[2023-11-17 10:43:01,094] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(515): Global mutex obtained. Start checking.
+[2023-11-17 10:43:01,328] [1    ] [INFO ] [] - DeviceId::RestoreGlobalDeviceData(65): Failed reading global DeviceData from registry: Registry key "SOFTWARE\Box\DeviceId" not found.
+[2023-11-17 10:43:01,426] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(389): Restored local DeviceId
+[2023-11-17 10:43:01,427] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(393): Restored local DeviceData
+[2023-11-17 10:43:01,427] [1    ] [INFO ] [] - DeviceId::PerformChecking(452): Checking DeviceData.
+[2023-11-17 10:43:01,435] [1    ] [INFO ] [] - DeviceId::PerformChecking(453): DeviceData read from registry: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-11-17 10:43:01,435] [1    ] [INFO ] [] - DeviceId::PerformChecking(454): Generated DeviceData: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-11-17 10:43:01,464] [1    ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:43:01,491] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2023-11-17 10:43:01,491] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2023-11-17 10:43:01,491] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2023-11-17 10:43:01,502] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-11-17 10:43:01,502] [9    ] [INFO ] [] - result: True
+[2023-11-17 10:43:01,502] [9    ] [INFO ] [] - Checking for upgrades
+[2023-11-17 10:43:01,512] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-11-17 10:43:01,594] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2023-11-17 10:43:01,604] [1    ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:43:01,604] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:43:01,604] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-11-17 10:43:01,635] [1    ] [INFO ] [] - .NET Version: unknown (533325) - 4.0.30319.42000
+[2023-11-17 10:43:01,645] [13   ] [INFO ] [] - Sending async metric DotNetVersion to Gen204 json endpoint.
+[2023-11-17 10:43:01,885] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-11-17 10:43:02,104] [9    ] [INFO ] [] - ### current version track name: 4.24.0
+[2023-11-17 10:43:02,106] [9    ] [WARN ] [] - Track 4.24.0 not found
+[2023-11-17 10:43:02,106] [9    ] [INFO ] [] - Track default for upgrade found
+[2023-11-17 10:43:02,106] [9    ] [INFO ] [] - RolloutID set to 73
+[2023-11-17 10:43:02,106] [9    ] [INFO ] [] - No upgrade available
+[2023-11-17 10:43:02,390] [13   ] [INFO ] [] - Metric ingestion endpoint response: NoContent
+[2023-11-17 10:43:06,625] [10   ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:43:06,625] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:43:06,625] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-11-17 10:53:06,641] [15   ] [INFO ] [] - Initializing the metrics collector
+[2023-11-17 10:53:06,641] [15   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-11-17 10:53:06,641] [15   ] [ERROR] [] - Failed to initialized metrics collector - error: 2

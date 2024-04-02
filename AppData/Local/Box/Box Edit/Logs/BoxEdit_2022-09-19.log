@@ -1,0 +1,26 @@
+[2022-09-19 21:05:03,548] [1    ] [INFO ] [] - ========== Box Edit v4.19.0.956 ==========
+[2022-09-19 21:05:03,610] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2022-09-19 21:05:09,269] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2022-09-19 21:05:09,269] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-09-19 21:05:09,410] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2022-09-19 21:05:09,932] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-09-19 21:05:11,048] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-09-19 21:05:11,048] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-09-19 21:05:11,064] [6    ] [INFO ] [] - Checking for upgrades
+[2022-09-19 21:05:11,064] [6    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2022-09-19 21:05:11,345] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-09-19 21:05:11,502] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2022-09-19 21:05:11,518] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-09-19 21:05:11,518] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-09-19 21:05:11,518] [1    ] [INFO ] [] - .NET Version: .NET Framework 4.8 (528372) - 4.0.30319.42000
+[2022-09-19 21:05:11,941] [6    ] [INFO ] [] - No track defined, checking against default track
+[2022-09-19 21:05:11,941] [6    ] [INFO ] [] - RolloutID set to 87
+[2022-09-19 21:05:11,941] [6    ] [INFO ] [] - No upgrade available

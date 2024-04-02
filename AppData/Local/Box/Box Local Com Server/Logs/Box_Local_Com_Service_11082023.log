@@ -1,0 +1,18 @@
+[2023-11-08 09:45:27,869] [1    ] [INFO ] [] - ========== Box Local Com Server v4.24.0.1029 ==========
+[2023-11-08 09:45:27,919] [1    ] [INFO ] [] - Running as a per-user installation
+[2023-11-08 09:45:27,986] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-11-08 09:45:27,994] [1    ] [INFO ] [] - Starting server...
+[2023-11-08 09:45:28,002] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2023-11-08 09:45:28,002] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-11-08 19:44:59,424] [1    ] [INFO ] [] - ========== Box Local Com Server v4.24.0.1029 ==========
+[2023-11-08 19:44:59,456] [1    ] [INFO ] [] - Running as a per-user installation
+[2023-11-08 19:44:59,517] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-11-08 19:44:59,517] [1    ] [INFO ] [] - Starting server...
+[2023-11-08 19:44:59,544] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2023-11-08 19:44:59,547] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-11-08 23:01:44,950] [1    ] [INFO ] [] - ========== Box Local Com Server v4.24.0.1029 ==========
+[2023-11-08 23:01:45,013] [1    ] [INFO ] [] - Running as a per-user installation
+[2023-11-08 23:01:45,122] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-11-08 23:01:45,122] [1    ] [INFO ] [] - Starting server...
+[2023-11-08 23:01:45,138] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2023-11-08 23:01:45,138] [1    ] [INFO ] [] - Working with debug logging OFF

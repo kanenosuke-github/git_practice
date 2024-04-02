@@ -1,0 +1,24 @@
+[2023-10-05 12:45:14,142] [1    ] [INFO ] [] - ========== Box Local Com Server v4.23.0.1013 ==========
+[2023-10-05 12:45:14,220] [1    ] [INFO ] [] - Running as a per-user installation
+[2023-10-05 12:45:14,330] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-10-05 12:45:14,412] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-10-05 12:45:14,424] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-10-05 12:45:14,424] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-10-05 12:45:14,445] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-10-05 12:45:14,455] [1    ] [INFO ] [] - Starting server...
+[2023-10-05 12:45:14,473] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2023-10-05 12:45:14,475] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-10-05 12:46:18,341] [1    ] [INFO ] [] - ========== Box Local Com Server v4.24.0.1029 ==========
+[2023-10-05 12:46:18,366] [1    ] [INFO ] [] - Running as a per-user installation
+[2023-10-05 12:46:19,842] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-10-05 12:46:19,842] [1    ] [INFO ] [] - Starting server...
+[2023-10-05 12:46:20,346] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2023-10-05 12:46:20,358] [1    ] [INFO ] [] - Working with debug logging OFF

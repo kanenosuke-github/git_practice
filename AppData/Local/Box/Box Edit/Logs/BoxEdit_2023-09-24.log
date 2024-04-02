@@ -1,0 +1,38 @@
+[2023-09-24 13:47:19,708] [1    ] [INFO ] [] - ========== Box Edit v4.23.0.1013 ==========
+[2023-09-24 13:47:19,914] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2023-09-24 13:47:27,042] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2023-09-24 13:47:27,054] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-09-24 13:47:27,208] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2023-09-24 13:47:29,023] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-09-24 13:47:29,213] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(488): Starting DeviceId generator.
+[2023-09-24 13:47:29,218] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(515): Global mutex obtained. Start checking.
+[2023-09-24 13:47:30,096] [1    ] [INFO ] [] - DeviceId::RestoreGlobalDeviceData(65): Failed reading global DeviceData from registry: Registry key "SOFTWARE\Box\DeviceId" not found.
+[2023-09-24 13:47:31,158] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(389): Restored local DeviceId
+[2023-09-24 13:47:31,159] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(393): Restored local DeviceData
+[2023-09-24 13:47:31,159] [1    ] [INFO ] [] - DeviceId::PerformChecking(452): Checking DeviceData.
+[2023-09-24 13:47:31,229] [1    ] [INFO ] [] - DeviceId::PerformChecking(453): DeviceData read from registry: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-09-24 13:47:31,230] [1    ] [INFO ] [] - DeviceId::PerformChecking(454): Generated DeviceData: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-09-24 13:47:31,402] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-09-24 13:47:31,434] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-09-24 13:47:31,462] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-09-24 13:47:31,464] [9    ] [INFO ] [] - result: True
+[2023-09-24 13:47:31,465] [9    ] [INFO ] [] - Checking for upgrades
+[2023-09-24 13:47:31,515] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-09-24 13:47:33,659] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-09-24 13:47:33,673] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2023-09-24 13:47:33,733] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-09-24 13:47:33,733] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-09-24 13:47:33,750] [1    ] [INFO ] [] - .NET Version: unknown (533325) - 4.0.30319.42000
+[2023-09-24 13:47:35,104] [9    ] [INFO ] [] - ### current version track name: 4.23.0
+[2023-09-24 13:47:35,105] [9    ] [WARN ] [] - Track 4.23.0 not found
+[2023-09-24 13:47:35,106] [9    ] [INFO ] [] - Track default for upgrade found
+[2023-09-24 13:47:35,107] [9    ] [INFO ] [] - RolloutID set to 42
+[2023-09-24 13:47:35,107] [9    ] [INFO ] [] - Not upgrading because RolloutID is not in range

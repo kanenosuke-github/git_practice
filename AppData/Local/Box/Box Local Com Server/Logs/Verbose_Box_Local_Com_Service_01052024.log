@@ -1,0 +1,35 @@
+[2024-01-05 09:21:03,636] [1    ] [INFO ] [] - ========== Box Local Com Server v4.24.0.1029 ==========
+[2024-01-05 09:21:03,785] [1    ] [INFO ] [] - Running as a per-user installation
+[2024-01-05 09:21:04,736] [1    ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 09:21:04,811] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2024-01-05 09:21:04,813] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2024-01-05 09:21:04,814] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2024-01-05 09:21:04,818] [1    ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 09:21:04,821] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-01-05 09:21:04,824] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-01-05 09:21:05,077] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2024-01-05 09:21:05,145] [1    ] [INFO ] [] - Starting server...
+[2024-01-05 09:21:05,275] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2024-01-05 09:21:05,279] [1    ] [INFO ] [] - Working with debug logging OFF
+[2024-01-05 09:21:05,542] [8    ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 09:21:05,543] [8    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-01-05 09:21:05,543] [8    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-01-05 09:21:05,544] [8    ] [INFO ] [] - Recording metric - name: ComServerStart
+[2024-01-05 09:21:10,023] [4    ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 09:21:10,034] [4    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-01-05 09:21:10,034] [4    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-01-05 09:31:09,889] [5    ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 09:31:09,892] [5    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-01-05 09:31:09,892] [5    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-01-05 09:41:09,895] [4    ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 09:41:09,898] [4    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-01-05 09:41:09,900] [4    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-01-05 09:51:09,910] [7    ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 09:51:09,915] [7    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-01-05 09:51:09,917] [7    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-01-05 10:01:09,937] [10   ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 10:01:09,937] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-01-05 10:01:09,938] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-01-05 10:11:09,954] [11   ] [INFO ] [] - Initializing the metrics collector
+[2024-01-05 10:11:09,955] [11   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-01-05 10:11:09,955] [11   ] [ERROR] [] - Failed to initialized metrics collector - error: 2

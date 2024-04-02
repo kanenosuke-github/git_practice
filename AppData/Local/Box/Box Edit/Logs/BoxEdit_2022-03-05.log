@@ -1,0 +1,78 @@
+[2022-03-05 22:25:52,641] [1    ] [INFO ] [] - ========== Box Edit v4.17.0.935 ==========
+[2022-03-05 22:25:52,913] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2022-03-05 22:25:54,570] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2022-03-05 22:25:54,578] [1    ] [INFO ] [] - Working with debug logging OFF
+[2022-03-05 22:25:54,698] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2022-03-05 22:25:55,498] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2022-03-05 22:25:55,626] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-05 22:25:55,658] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2022-03-05 22:25:55,658] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2022-03-05 22:25:55,658] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2022-03-05 22:25:55,658] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-03-05 22:25:55,674] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-03-05 22:25:55,682] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-05 22:25:55,722] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-03-05 22:25:55,762] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2022-03-05 22:25:55,778] [1    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-05 22:25:55,778] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-05 22:25:55,778] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-05 22:25:55,778] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2022-03-05 22:25:55,778] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2022-03-05 22:25:56,221] [6    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2022-03-05 22:25:56,229] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-05 22:25:56,229] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-03-05 22:25:56,317] [6    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2022-03-05 22:25:56,317] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-05 22:25:56,325] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-03-05 22:25:56,365] [6    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2022-03-05 22:25:56,365] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-05 22:25:56,365] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-03-05 22:25:56,421] [6    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2022-03-05 22:25:56,421] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-05 22:25:56,421] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2022-03-05 22:25:56,448] [6    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2022-03-05 22:25:56,448] [6    ] [INFO ] [] - Checking for upgrades
+[2022-03-05 22:25:56,448] [6    ] [INFO ] [] - Too many attemps for upgrade
+[2022-03-05 22:26:06,569] [8    ] [INFO ] [] - Initializing the metrics collector
+[2022-03-05 22:26:06,569] [8    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-05 22:26:06,569] [8    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-05 22:36:06,561] [15   ] [INFO ] [] - Initializing the metrics collector
+[2022-03-05 22:36:06,564] [15   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-05 22:36:06,565] [15   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-05 22:46:06,574] [17   ] [INFO ] [] - Initializing the metrics collector
+[2022-03-05 22:46:06,576] [17   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-05 22:46:06,577] [17   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-05 22:56:06,584] [12   ] [INFO ] [] - Initializing the metrics collector
+[2022-03-05 22:56:06,585] [12   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-05 22:56:06,585] [12   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2022-03-05 23:06:06,578] [18   ] [INFO ] [] - Initializing the metrics collector
+[2022-03-05 23:06:06,581] [18   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2022-03-05 23:06:06,581] [18   ] [ERROR] [] - Failed to initialized metrics collector - error: 2

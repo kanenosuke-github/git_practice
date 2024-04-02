@@ -1,0 +1,120 @@
+[2024-02-28 23:22:11,364] [1    ] [INFO ] [] - ========== Box Edit v4.24.0.1029 ==========
+[2024-02-28 23:22:11,396] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2024-02-28 23:22:12,614] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2024-02-28 23:22:12,614] [1    ] [INFO ] [] - Working with debug logging OFF
+[2024-02-28 23:22:12,692] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2024-02-28 23:22:13,020] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2024-02-28 23:22:13,051] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(488): Starting DeviceId generator.
+[2024-02-28 23:22:13,051] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(515): Global mutex obtained. Start checking.
+[2024-02-28 23:22:13,192] [1    ] [INFO ] [] - DeviceId::RestoreGlobalDeviceData(65): Failed reading global DeviceData from registry: Registry key "SOFTWARE\Box\DeviceId" not found.
+[2024-02-28 23:22:13,255] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(389): Restored local DeviceId
+[2024-02-28 23:22:13,255] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(393): Restored local DeviceData
+[2024-02-28 23:22:13,255] [1    ] [INFO ] [] - DeviceId::PerformChecking(452): Checking DeviceData.
+[2024-02-28 23:22:13,270] [1    ] [INFO ] [] - DeviceId::PerformChecking(453): DeviceData read from registry: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2024-02-28 23:22:13,270] [1    ] [INFO ] [] - DeviceId::PerformChecking(454): Generated DeviceData: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2024-02-28 23:22:13,301] [1    ] [INFO ] [] - Initializing the metrics collector
+[2024-02-28 23:22:13,317] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2024-02-28 23:22:13,317] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2024-02-28 23:22:13,317] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2024-02-28 23:22:13,333] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2024-02-28 23:22:13,333] [9    ] [INFO ] [] - result: True
+[2024-02-28 23:22:13,333] [9    ] [INFO ] [] - Checking for upgrades
+[2024-02-28 23:22:13,333] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2024-02-28 23:22:13,380] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2024-02-28 23:22:13,380] [1    ] [INFO ] [] - Initializing the metrics collector
+[2024-02-28 23:22:13,380] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-28 23:22:13,380] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-28 23:22:13,395] [1    ] [INFO ] [] - .NET Version: unknown (533325) - 4.0.30319.42000
+[2024-02-28 23:22:13,411] [13   ] [INFO ] [] - Sending async metric DotNetVersion to Gen204 json endpoint.
+[2024-02-28 23:22:13,583] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2024-02-28 23:22:13,614] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2024-02-28 23:22:13,614] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2024-02-28 23:22:13,614] [9    ] [INFO ] [] - result: True
+[2024-02-28 23:22:13,614] [9    ] [INFO ] [] - Checking for upgrades
+[2024-02-28 23:22:13,614] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2024-02-28 23:22:13,614] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2024-02-28 23:22:13,629] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2024-02-28 23:22:13,629] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2024-02-28 23:22:13,629] [9    ] [INFO ] [] - result: True
+[2024-02-28 23:22:13,629] [9    ] [INFO ] [] - Checking for upgrades
+[2024-02-28 23:22:13,629] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2024-02-28 23:22:13,629] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2024-02-28 23:22:13,629] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2024-02-28 23:22:13,645] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2024-02-28 23:22:13,645] [9    ] [INFO ] [] - result: True
+[2024-02-28 23:22:13,645] [9    ] [INFO ] [] - Checking for upgrades
+[2024-02-28 23:22:13,645] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2024-02-28 23:22:13,645] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2024-02-28 23:22:13,645] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2024-02-28 23:22:13,661] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2024-02-28 23:22:13,661] [9    ] [INFO ] [] - result: True
+[2024-02-28 23:22:13,661] [9    ] [INFO ] [] - Checking for upgrades
+[2024-02-28 23:22:13,661] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2024-02-28 23:22:13,661] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2024-02-28 23:22:13,661] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2024-02-28 23:22:13,676] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2024-02-28 23:22:13,676] [9    ] [INFO ] [] - result: True
+[2024-02-28 23:22:13,676] [9    ] [INFO ] [] - Checking for upgrades
+[2024-02-28 23:22:13,676] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2024-02-28 23:22:13,676] [9    ] [INFO ] [] - Too many attemps for upgrade
+[2024-02-28 23:22:16,223] [2    ] [ERROR] [] - Program.TaskScheduler_UnobservedTaskException on line number [0]  System.AggregateException: タスクの例外が、タスクの待機によっても、タスクの Exception プロパティへのアクセスによっても監視されませんでした。その結果、監視されていない例外がファイナライザー スレッドによって再スローされました。 ---> System.AggregateException: 1 つ以上のエラーが発生しました。 ---> System.Net.Http.HttpRequestException: この要求の送信中にエラーが発生しました。 ---> System.Net.WebException: リモート名を解決できませんでした。: 'client-log.box.com'
+   場所 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   場所 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部例外スタック トレースの終わり ---
+   --- 内部例外スタック トレースの終わり ---
+   場所 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   場所 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   場所 System.Threading.Tasks.Task`1.get_Result()
+   場所 Box.Metrics.Reporter.MetricsSender.<>c__DisplayClass22_0.<SendMetricToJsonGen204Async>b__0()
+   場所 System.Threading.Tasks.Task.InnerInvoke()
+   場所 System.Threading.Tasks.Task.Execute()
+   --- 内部例外スタック トレースの終わり ---
+---> (内部例外 #0) System.AggregateException: 1 つ以上のエラーが発生しました。 ---> System.Net.Http.HttpRequestException: この要求の送信中にエラーが発生しました。 ---> System.Net.WebException: リモート名を解決できませんでした。: 'client-log.box.com'
+   場所 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   場所 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部例外スタック トレースの終わり ---
+   --- 内部例外スタック トレースの終わり ---
+   場所 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   場所 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   場所 System.Threading.Tasks.Task`1.get_Result()
+   場所 Box.Metrics.Reporter.MetricsSender.<>c__DisplayClass22_0.<SendMetricToJsonGen204Async>b__0()
+   場所 System.Threading.Tasks.Task.InnerInvoke()
+   場所 System.Threading.Tasks.Task.Execute()
+---> (内部例外 #0) System.Net.Http.HttpRequestException: この要求の送信中にエラーが発生しました。 ---> System.Net.WebException: リモート名を解決できませんでした。: 'client-log.box.com'
+   場所 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   場所 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部例外スタック トレースの終わり ---<---
+<---
+
+[2024-02-28 23:22:18,425] [10   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-28 23:22:18,425] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-28 23:22:18,425] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-28 23:32:23,288] [13   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-28 23:32:23,288] [13   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-28 23:32:23,288] [13   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-28 23:42:23,295] [9    ] [INFO ] [] - Initializing the metrics collector
+[2024-02-28 23:42:23,303] [9    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-28 23:42:23,303] [9    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-28 23:52:23,319] [11   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-28 23:52:23,328] [11   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-28 23:52:23,330] [11   ] [ERROR] [] - Failed to initialized metrics collector - error: 2

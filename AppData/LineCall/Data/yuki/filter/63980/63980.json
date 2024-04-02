@@ -1,0 +1,12 @@
+{
+  "result" : {
+    "filterResourceName" : "DT_Original.dat",
+    "noFilterOnSticker" : true,
+    "skinSmoothIntensity" : 0,
+    "soundItems" : [ ],
+    "stickerId" : 63980,
+    "items" : [ ],
+    "modifiedDate" : 4,
+    "name" : "Original"
+  }
+}

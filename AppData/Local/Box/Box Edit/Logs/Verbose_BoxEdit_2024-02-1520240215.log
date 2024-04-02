@@ -1,0 +1,65 @@
+[2024-02-15 22:24:28,526] [1    ] [INFO ] [] - ========== Box Edit v4.24.0.1029 ==========
+[2024-02-15 22:24:28,670] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2024-02-15 22:24:32,144] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2024-02-15 22:24:32,158] [1    ] [INFO ] [] - Working with debug logging OFF
+[2024-02-15 22:24:32,457] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2024-02-15 22:24:33,856] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2024-02-15 22:24:34,002] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(488): Starting DeviceId generator.
+[2024-02-15 22:24:34,008] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(515): Global mutex obtained. Start checking.
+[2024-02-15 22:24:34,438] [1    ] [INFO ] [] - DeviceId::RestoreGlobalDeviceData(65): Failed reading global DeviceData from registry: Registry key "SOFTWARE\Box\DeviceId" not found.
+[2024-02-15 22:24:34,571] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(389): Restored local DeviceId
+[2024-02-15 22:24:34,572] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(393): Restored local DeviceData
+[2024-02-15 22:24:34,574] [1    ] [INFO ] [] - DeviceId::PerformChecking(452): Checking DeviceData.
+[2024-02-15 22:24:34,574] [1    ] [INFO ] [] - DeviceId::PerformChecking(453): DeviceData read from registry: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2024-02-15 22:24:34,574] [1    ] [INFO ] [] - DeviceId::PerformChecking(454): Generated DeviceData: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2024-02-15 22:24:35,433] [1    ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 22:24:35,589] [1    ] [WARN ] [] - MetricsCollector::UpdateConfiguration(374): UpdateConfiguration raised: unable to open database file
+[2024-02-15 22:24:35,593] [1    ] [ERROR] [] - MetricsCollector::Initialize(238): Raised: unable to open database file
+[2024-02-15 22:24:35,594] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 6
+[2024-02-15 22:24:35,749] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2024-02-15 22:24:35,750] [9    ] [INFO ] [] - result: True
+[2024-02-15 22:24:35,751] [9    ] [INFO ] [] - Checking for upgrades
+[2024-02-15 22:24:35,765] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2024-02-15 22:24:36,224] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2024-02-15 22:24:36,280] [1    ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 22:24:36,280] [1    ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 22:24:36,280] [1    ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 22:24:36,286] [1    ] [INFO ] [] - .NET Version: unknown (533325) - 4.0.30319.42000
+[2024-02-15 22:24:36,362] [12   ] [INFO ] [] - Sending async metric DotNetVersion to Gen204 json endpoint.
+[2024-02-15 22:24:36,558] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2024-02-15 22:24:37,158] [9    ] [INFO ] [] - ### current version track name: 4.24.0
+[2024-02-15 22:24:37,158] [9    ] [WARN ] [] - Track 4.24.0 not found
+[2024-02-15 22:24:37,158] [9    ] [INFO ] [] - Track default for upgrade found
+[2024-02-15 22:24:37,158] [9    ] [INFO ] [] - RolloutID set to 73
+[2024-02-15 22:24:37,158] [9    ] [INFO ] [] - No upgrade available
+[2024-02-15 22:24:37,414] [12   ] [INFO ] [] - Metric ingestion endpoint response: NoContent
+[2024-02-15 22:24:41,316] [10   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 22:24:41,318] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 22:24:41,320] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 22:34:41,316] [12   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 22:34:41,316] [12   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 22:34:41,316] [12   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 22:44:41,310] [11   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 22:44:41,310] [11   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 22:44:41,310] [11   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 22:54:41,333] [11   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 22:54:41,334] [11   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 22:54:41,335] [11   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 23:04:41,364] [11   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 23:04:41,368] [11   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 23:04:41,370] [11   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 23:14:41,371] [11   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 23:14:41,374] [11   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 23:14:41,376] [11   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 23:24:41,382] [16   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 23:24:41,388] [16   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 23:24:41,390] [16   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 23:34:41,385] [12   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 23:34:41,386] [12   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 23:34:41,388] [12   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 23:44:41,401] [13   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 23:44:41,405] [13   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 23:44:41,405] [13   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2024-02-15 23:54:41,450] [10   ] [INFO ] [] - Initializing the metrics collector
+[2024-02-15 23:54:41,453] [10   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2024-02-15 23:54:41,453] [10   ] [ERROR] [] - Failed to initialized metrics collector - error: 2

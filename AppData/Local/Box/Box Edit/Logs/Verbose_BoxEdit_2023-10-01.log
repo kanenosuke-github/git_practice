@@ -1,0 +1,15 @@
+[2023-10-02 00:02:26,099] [27   ] [INFO ] [] - Initializing the metrics collector
+[2023-10-02 00:02:26,127] [27   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-10-02 00:02:26,128] [27   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-10-02 00:12:26,114] [40   ] [INFO ] [] - Initializing the metrics collector
+[2023-10-02 00:12:26,117] [40   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-10-02 00:12:26,118] [40   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-10-02 00:22:26,127] [41   ] [INFO ] [] - Initializing the metrics collector
+[2023-10-02 00:22:26,129] [41   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-10-02 00:22:26,130] [41   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-10-02 00:32:26,145] [42   ] [INFO ] [] - Initializing the metrics collector
+[2023-10-02 00:32:26,148] [42   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-10-02 00:32:26,149] [42   ] [ERROR] [] - Failed to initialized metrics collector - error: 2
+[2023-10-02 00:42:26,161] [43   ] [INFO ] [] - Initializing the metrics collector
+[2023-10-02 00:42:26,163] [43   ] [ERROR] [] - MetricsCollector::Initialize(171): Check Failed: !IsConfigured() - Return: MetricResult_InvalidState
+[2023-10-02 00:42:26,163] [43   ] [ERROR] [] - Failed to initialized metrics collector - error: 2

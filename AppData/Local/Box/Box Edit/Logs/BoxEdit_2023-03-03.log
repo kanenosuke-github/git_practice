@@ -1,0 +1,64 @@
+[2023-03-03 00:16:39,416] [1    ] [INFO ] [] - ========== Box Edit v4.21.0.983 ==========
+[2023-03-03 00:16:39,507] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2023-03-03 00:16:43,233] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2023-03-03 00:16:43,233] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-03-03 00:16:43,344] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2023-03-03 00:16:44,040] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-03-03 00:16:44,182] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-03-03 00:16:44,192] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-03-03 00:16:44,212] [6    ] [INFO ] [] - Checking for upgrades
+[2023-03-03 00:16:44,222] [6    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-03-03 00:16:44,293] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2023-03-03 00:16:44,303] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-03-03 00:16:44,311] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-03-03 00:16:44,313] [1    ] [INFO ] [] - .NET Version: .NET Framework 4.8 (528372) - 4.0.30319.42000
+[2023-03-03 00:16:44,727] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-03-03 00:16:45,171] [6    ] [INFO ] [] - No track defined, checking against default track
+[2023-03-03 00:16:45,171] [6    ] [INFO ] [] - RolloutID set to 44
+[2023-03-03 00:16:45,171] [6    ] [INFO ] [] - Newer version found 4.21.1.991
+[2023-03-03 00:16:45,373] [6    ] [INFO ] [] - Download of upgrade https://e3.boxcdn.net/boxedit/upgrades/win/BoxToolsInstaller-UserUpgrade-4.21.1.991.msi.zip to C:\Users\金田駿之介\AppData\Local\Temp\Box\BoxTools\Installer\BoxToolsUpgrade.msi.zip completed
+[2023-03-03 00:16:45,373] [6    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-03-03 00:16:54,165] [8    ] [INFO ] [] - SHA1 - expected: 2dc5805937b0d4a5b663aa7653cdb19fed7cab7a, received: 2dc5805937b0d4a5b663aa7653cdb19fed7cab7a
+[2023-03-03 00:16:54,165] [8    ] [INFO ] [] - Upgrade downloaded correctly and passed SHA1 verification
+[2023-03-03 00:16:54,572] [8    ] [INFO ] [] - Upgrade extracted
+[2023-03-03 00:16:54,572] [8    ] [INFO ] [] - Verifying embedded signature - path: 'C:\Users\金田駿之介\AppData\Local\Temp\Box\BoxTools\Installer\BoxToolsUpgrade.msi'
+[2023-03-03 00:16:58,229] [8    ] [INFO ] [] - Installing upgrade
+[2023-03-03 00:16:58,479] [8    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-03-03 00:16:58,653] [8    ] [INFO ] [] - Recorded AU metric.
+[2023-03-03 00:16:58,653] [8    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-03-03 00:17:52,390] [1    ] [INFO ] [] - ========== Box Edit v4.21.1.991 ==========
+[2023-03-03 00:17:52,437] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe"
+[2023-03-03 00:17:57,543] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2023-03-03 00:17:57,543] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-03-03 00:17:57,848] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2023-03-03 00:17:58,439] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-03-03 00:18:03,443] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-03-03 00:18:03,475] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-03-03 00:18:03,506] [6    ] [INFO ] [] - Checking for upgrades
+[2023-03-03 00:18:03,537] [6    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-03-03 00:18:03,959] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2023-03-03 00:18:03,990] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-03-03 00:18:03,990] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-03-03 00:18:04,022] [1    ] [INFO ] [] - .NET Version: .NET Framework 4.8 (528372) - 4.0.30319.42000
+[2023-03-03 00:18:04,631] [6    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-03-03 00:18:05,037] [6    ] [INFO ] [] - ### current version track name: 4.21.1
+[2023-03-03 00:18:05,037] [6    ] [WARN ] [] - Track 4.21.1 not found
+[2023-03-03 00:18:05,037] [6    ] [INFO ] [] - Track default for upgrade found
+[2023-03-03 00:18:05,037] [6    ] [INFO ] [] - RolloutID set to 9
+[2023-03-03 00:18:05,037] [6    ] [INFO ] [] - No upgrade available

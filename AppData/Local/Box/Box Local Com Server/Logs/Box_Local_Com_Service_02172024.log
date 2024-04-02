@@ -1,0 +1,12 @@
+[2024-02-17 10:01:46,630] [1    ] [INFO ] [] - ========== Box Local Com Server v4.24.0.1029 ==========
+[2024-02-17 10:01:46,708] [1    ] [INFO ] [] - Running as a per-user installation
+[2024-02-17 10:01:46,818] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2024-02-17 10:01:46,833] [1    ] [INFO ] [] - Starting server...
+[2024-02-17 10:01:46,833] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2024-02-17 10:01:46,849] [1    ] [INFO ] [] - Working with debug logging OFF
+[2024-02-17 21:12:30,608] [1    ] [INFO ] [] - ========== Box Local Com Server v4.24.0.1029 ==========
+[2024-02-17 21:12:30,797] [1    ] [INFO ] [] - Running as a per-user installation
+[2024-02-17 21:12:31,441] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2024-02-17 21:12:31,441] [1    ] [INFO ] [] - Starting server...
+[2024-02-17 21:12:31,475] [1    ] [INFO ] [] - Server running. Listening to port 17223
+[2024-02-17 21:12:31,501] [1    ] [INFO ] [] - Working with debug logging OFF

@@ -1,0 +1,112 @@
+[2023-09-27 14:23:49,992] [1    ] [INFO ] [] - ========== Box Edit v4.23.0.1013 ==========
+[2023-09-27 14:23:50,019] [1    ] [INFO ] [] - Command Line: "C:\Users\金田駿之介\AppData\Local\Box\Box Edit\Box Edit.exe" 
+[2023-09-27 14:23:51,201] [1    ] [INFO ] [] - Getting DebugLogging value from CurrentUser
+[2023-09-27 14:23:51,201] [1    ] [INFO ] [] - Working with debug logging OFF
+[2023-09-27 14:23:51,264] [1    ] [INFO ] [] - Days to keep files in cache set to 7
+[2023-09-27 14:23:51,767] [1    ] [INFO ] [] - LocalMachine RegistryKey not set
+[2023-09-27 14:23:51,798] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(488): Starting DeviceId generator.
+[2023-09-27 14:23:51,814] [1    ] [INFO ] [] - DeviceId::CheckDeviceId(515): Global mutex obtained. Start checking.
+[2023-09-27 14:23:52,032] [1    ] [INFO ] [] - DeviceId::RestoreGlobalDeviceData(65): Failed reading global DeviceData from registry: Registry key "SOFTWARE\Box\DeviceId" not found.
+[2023-09-27 14:23:52,096] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(389): Restored local DeviceId
+[2023-09-27 14:23:52,096] [1    ] [INFO ] [] - DeviceId::RestoreAndValidateLocalProperites(393): Restored local DeviceData
+[2023-09-27 14:23:52,096] [1    ] [INFO ] [] - DeviceId::PerformChecking(452): Checking DeviceData.
+[2023-09-27 14:23:52,112] [1    ] [INFO ] [] - DeviceId::PerformChecking(453): DeviceData read from registry: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-09-27 14:23:52,112] [1    ] [INFO ] [] - DeviceId::PerformChecking(454): Generated DeviceData: {"ComputerSystemProductUUID":"B4C5DFD1-4333-1CB6-C49D-A3067E9A232A","Version":1}
+[2023-09-27 14:23:52,159] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-09-27 14:23:52,159] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-09-27 14:23:52,174] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-09-27 14:23:52,174] [9    ] [INFO ] [] - result: True
+[2023-09-27 14:23:52,174] [9    ] [INFO ] [] - Checking for upgrades
+[2023-09-27 14:23:52,190] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-09-27 14:23:52,237] [1    ] [INFO ] [] - Running pipe server using box_edit_pipe as pipe name
+[2023-09-27 14:23:52,237] [1    ] [ERROR] [] - Could not set permissions to C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+[2023-09-27 14:23:52,237] [1    ] [ERROR] [] - FileSystemUtils.AddPermissionsToFile on line number [0]  System.IO.FileNotFoundException: C:\Users\金田駿之介\AppData\Local\Box\Box Tools\Metrics\BoxTools_Metrics.db
+   場所 System.Security.AccessControl.NativeObjectSecurity.CreateInternal(ResourceType resourceType, Boolean isContainer, String name, SafeHandle handle, AccessControlSections includeSections, Boolean createByName, ExceptionFromErrorCode exceptionFromErrorCode, Object exceptionContext)
+   場所 System.Security.AccessControl.FileSystemSecurity..ctor(Boolean isContainer, String name, AccessControlSections includeSections, Boolean isDirectory)
+   場所 System.Security.AccessControl.FileSecurity..ctor(String fileName, AccessControlSections includeSections)
+   場所 Box.Utilities.Util.FileSystemUtils.AddPermissionsToFile(String filePath, WellKnownSidType account, FileSystemRights permissions)
+[2023-09-27 14:23:52,252] [1    ] [INFO ] [] - .NET Version: unknown (533325) - 4.0.30319.42000
+[2023-09-27 14:23:52,456] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-09-27 14:23:52,471] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2023-09-27 14:23:52,471] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-09-27 14:23:52,471] [9    ] [INFO ] [] - result: True
+[2023-09-27 14:23:52,471] [9    ] [INFO ] [] - Checking for upgrades
+[2023-09-27 14:23:52,471] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-09-27 14:23:52,471] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-09-27 14:23:52,487] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2023-09-27 14:23:52,487] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-09-27 14:23:52,487] [9    ] [INFO ] [] - result: True
+[2023-09-27 14:23:52,487] [9    ] [INFO ] [] - Checking for upgrades
+[2023-09-27 14:23:52,487] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-09-27 14:23:52,487] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-09-27 14:23:52,487] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - result: True
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - Checking for upgrades
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-09-27 14:23:52,502] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - result: True
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - Checking for upgrades
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-09-27 14:23:52,502] [9    ] [INFO ] [] - Url used to upgrade: https://cdn07.boxcdn.net/BoxEditAutoupdate2.json
+[2023-09-27 14:23:52,518] [9    ] [ERROR] [] - UpgradeService.GetLatestUpgrade on line number [0]  System.Net.WebException: リモート名を解決できませんでした。: 'cdn07.boxcdn.net'
+   場所 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   場所 System.Net.WebClient.DownloadString(Uri address)
+   場所 System.Net.WebClient.DownloadString(String address)
+   場所 Box.Edit.UpgradeService.UpgradeService.GetLatestUpgrade()
+[2023-09-27 14:23:52,518] [9    ] [INFO ] [] - .NET Version - installed 533325, expected: 528040
+[2023-09-27 14:23:52,518] [9    ] [INFO ] [] - result: True
+[2023-09-27 14:23:52,518] [9    ] [INFO ] [] - Checking for upgrades
+[2023-09-27 14:23:52,518] [9    ] [INFO ] [] - ### File path for UpgradeState: C:\Users\金田駿之介\AppData\Local\Box\upgrade_state.json
+[2023-09-27 14:23:52,518] [9    ] [INFO ] [] - Too many attemps for upgrade
+[2023-09-27 14:23:53,807] [2    ] [ERROR] [] - Program.TaskScheduler_UnobservedTaskException on line number [0]  System.AggregateException: タスクの例外が、タスクの待機によっても、タスクの Exception プロパティへのアクセスによっても監視されませんでした。その結果、監視されていない例外がファイナライザー スレッドによって再スローされました。 ---> System.AggregateException: 1 つ以上のエラーが発生しました。 ---> System.Net.Http.HttpRequestException: この要求の送信中にエラーが発生しました。 ---> System.Net.WebException: リモート名を解決できませんでした。: 'client-log.box.com'
+   場所 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   場所 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部例外スタック トレースの終わり ---
+   --- 内部例外スタック トレースの終わり ---
+   場所 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   場所 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   場所 System.Threading.Tasks.Task`1.get_Result()
+   場所 Box.Metrics.Reporter.MetricsSender.<>c__DisplayClass22_0.<SendMetricToJsonGen204Async>b__0()
+   場所 System.Threading.Tasks.Task.InnerInvoke()
+   場所 System.Threading.Tasks.Task.Execute()
+   --- 内部例外スタック トレースの終わり ---
+---> (内部例外 #0) System.AggregateException: 1 つ以上のエラーが発生しました。 ---> System.Net.Http.HttpRequestException: この要求の送信中にエラーが発生しました。 ---> System.Net.WebException: リモート名を解決できませんでした。: 'client-log.box.com'
+   場所 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   場所 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部例外スタック トレースの終わり ---
+   --- 内部例外スタック トレースの終わり ---
+   場所 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   場所 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   場所 System.Threading.Tasks.Task`1.get_Result()
+   場所 Box.Metrics.Reporter.MetricsSender.<>c__DisplayClass22_0.<SendMetricToJsonGen204Async>b__0()
+   場所 System.Threading.Tasks.Task.InnerInvoke()
+   場所 System.Threading.Tasks.Task.Execute()
+---> (内部例外 #0) System.Net.Http.HttpRequestException: この要求の送信中にエラーが発生しました。 ---> System.Net.WebException: リモート名を解決できませんでした。: 'client-log.box.com'
+   場所 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   場所 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部例外スタック トレースの終わり ---<---
+<---
+
